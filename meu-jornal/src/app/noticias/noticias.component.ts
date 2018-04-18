@@ -10,7 +10,7 @@ export class NoticiasComponent implements OnInit {
   noticias: string[] = ["Noticia 1", "Noticia 2", "Noticia 3", "Noticia 4"];
 
   mostrarNoticia: boolean = true;
-
+ 
   constructor() { }
 
   ngOnInit() {
@@ -18,6 +18,10 @@ export class NoticiasComponent implements OnInit {
 
   public esconderNoticia(){
     this.mostrarNoticia = false;
+  }
+
+  public retornarNoticia(){
+    this.mostrarNoticia = true;
   }
 
 }
