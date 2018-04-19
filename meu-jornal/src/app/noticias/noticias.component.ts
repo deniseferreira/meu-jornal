@@ -11,6 +11,9 @@ export class NoticiasComponent implements OnInit {
 
   mostrarNoticia: boolean = true;
  
+  titulo: string = 'Curso Angular';
+  texto: string = 'Utilizando String Interpolation';
+  caminho_imagem: string = '../../assets/img/dog.jpg';
   constructor() { }
 
   ngOnInit() {
